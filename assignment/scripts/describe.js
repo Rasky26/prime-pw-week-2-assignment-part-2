@@ -49,7 +49,7 @@
 //
 // The code within the brackets (the `{}` symbols) immediately following the parenthesis is ONLY ran if
 // and only if the result within the parenthesis is `true`. As this code within the parenthesis gives a
-// value of `faLse`, Javascript will proceed to any code following the adjacent closing bracket (the `}` bracket).
+// value of `false`, Javascript will proceed to any code following the adjacent closing bracket (the `}` bracket).
 //----------------------
 
 //CODE
@@ -101,7 +101,7 @@ if (number >= 2) {
 // logged to console.
 //
 // Instead, Javascript will continue with any code immediately following the closing bracket symbol, which
-// is an `else` statement in this example. Because `else` is treated the similarily as a `true` logic statement
+// is an `else` statement in this example. Because `else` is treated similarily as a `true` logic statement
 // within an if-else block, the code contained in the following brackets will be run.
 //
 // In this scenario, the console will log a message of `How do you do?`
@@ -146,7 +146,7 @@ if (name === 'Mary') {
 //
 // The variable `secret`, which was once set as `undefined`, is now changed to a string value of `super`.
 //
-// The variable `code` is also updated. In Javascript, the code to the RIGHT of an equal-sign (`=`) is always
+// The variable `code` is also updated. In Javascript, the math to the RIGHT of an equal-sign (`=`) is always
 // executed first BEFORE it is assigned to a variable. Therefore, the math equation to the right of the equal-sign
 // will be conducted first, which means 123 multiplied by 2 equals 246. With that calculation fully completed,
 // Javascript can now assign that value to the variable listed on the LEFT of the equal-sign.
